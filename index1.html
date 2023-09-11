@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTENT MANAGEMENT TOOL</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <h1>CONTENT MANAGEMENT TOOL</h1>
+    </header>
+    <main>
+        <div class="content">
+            <h2>CREATE NEW CONTENT</h2>
+            <form id="contentForm">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+                <label for="body">Content:</label>
+                <textarea id="body" name="body" rows="4" required></textarea>
+                <button type="submit">Save Content</button>
+            </form>
+        </div>
+        <div class="content">
+            <h2>EXISTING CONTENT</h2>
+            <ul id="contentList">
+                <!-- Existing content will be displayed here -->
+            </ul>
+        </div>
+    </main>
+    <script src="script1.js"></script>
+</body>
+</html>
